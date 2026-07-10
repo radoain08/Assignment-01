@@ -12,7 +12,7 @@ nav{
 
 }
 
-ul{
+nav ul{
     display: flex;
     list-style: none;
     gap: 20px;
@@ -91,6 +91,7 @@ span{
 
 .speakers h2{
     text-align: center;
+    
     font-size: 50px;
     margin-bottom: 30px;
 }
@@ -141,6 +142,105 @@ span{
     color: #575757;
     font-size: 15px;
 }
+
+hr{
+    background-color: #575757;   
+}
+
+
+.pricing{
+    width: 90%;
+    margin: 80px auto;
+}
+
+.pricing h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+
+.pricing p{
+    text-align: center;
+    color: #575757;
+    margin-bottom: 50px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.pricing-left-container,.pricing-center-container,.pricing-right-container{
+    width: 350px;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.pricing-center-container{
+    background-color: #0f172a;
+    color: white;
+}
+
+.pricing-container h5{
+    font-size: 15px;
+    color: grey;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.pricing-center-container h5{
+    color: white;
+}
+
+.pricing-container h3{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.pricing-container h6{
+    font-size: 15px;
+    color: grey;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+.pricing-center-container h6{
+    color: white;
+}
+
+.pricing-container ul{
+    padding-left: 22px;
+    margin-bottom: 30px;
+}
+
+.pricing-container li{
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.pricing-container li::marker{
+    color: blue;
+}
+
+.pricing-container button{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    background-color: white;
+    color: blue;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pricing-center-container button{
+    background-color:blue;
+    color: white;
+    border: none;
+}
+
 
 
 
