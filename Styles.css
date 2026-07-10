@@ -35,28 +35,30 @@ nav .btn button{
 }
 
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./images/banner.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("./images/banner.jpg");
     height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display:flex;
     flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-content{
-    width: 700px;
+    width: 650px;
     margin: 0 auto;
     text-align: center;
     color: white;
     padding-top: 120px;
-     text-align:center;
+    text-align:center;
     color:white;
 }
 
 .header-content h1{
-    font-size: 70px;
-    font-weight: 700;
+    font-size: 65px;
+    font-weight: 650;
     margin-bottom: 20px;
 }
 
@@ -67,7 +69,7 @@ header{
 }
 
 .header-btn{
-    background:blue;
+    background:#1D4ED8;
     color:white;
     border:none;
     margin-top: 30px;
@@ -78,5 +80,68 @@ header{
 }
 
 span{
-    color: blue;
+    color: #1D4ED8;
 }
+
+.speakers{
+    width: 90%;
+    margin: 80px auto;
+       
+}
+
+.speakers h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.speaker-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px; 
+    
+}
+
+.card{
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: 10px
+    
+}
+.card img{
+    
+    height: 300px;
+    width: 100%;
+
+    object-fit: cover;
+    display: block;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content h3,h6{
+    margin-bottom: 10px;
+}
+
+.card-content h6{
+    
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.card-content h3{
+    font-size: 23px;
+}
+
+.card-content p{
+    color: #575757;
+    font-size: 15px;
+}
+
+
+
+
