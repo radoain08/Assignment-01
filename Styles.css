@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    padding: 20px 8%;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: #575757;
+}
+nav .btn button{
+    background-color: #1D4ED8;
+    color: white;
+    padding: 12px 40px;
+    border: 0;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("./images/banner.jpg");
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
