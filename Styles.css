@@ -241,8 +241,6 @@ hr{
     border: none;
 }
 
-
-
 .career{
     width:90%;
     margin:100px auto;
@@ -334,6 +332,58 @@ hr{
     cursor:pointer;
 }
 
+.footer{
+    background-color: #05102c;
+    padding: 10px 0;
+}
 
+.footer-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.footer-logo img{
+    width: 150px;
+    display: block;
+}
+
+.footer-social-media{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social-media a{
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+    font-size: 25px;
+}
+
+.footer-social-media a:hover{
+    color: #e8e9ec;
+}
+
+.footer-hr-line{
+    width: 90%;
+    margin: 30px auto 20px;
+    border: none;
+    border-top: 1px solid #3c4046;
+}
+
+.footer-text-left{
+    text-align: left;
+    color: #eaedf0;
+    font-size: 15px;
+    padding-left: 60px;
+}
+
+.footer-text-right{
+    text-align: right;
+    color: #eaedf0;
+    font-size: 15px;
+    padding-right: 60px  ;
+    
+}
 
